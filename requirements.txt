@@ -1,8 +1,8 @@
 ccxt
 pandas
-pandas-ta
+pandas-ta==0.3.14b0  # Older stable version that works with numpy 1.x
 streamlit>=1.52.0
 requests
 plotly
-altair<6
-numpy<2.1
+altair<6.0
+numpy==1.26.4  # Explicit pin: works with pandas-ta 0.3.14b0 and modern Streamlit

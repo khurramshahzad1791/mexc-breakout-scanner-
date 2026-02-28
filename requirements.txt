@@ -1,6 +1,8 @@
 ccxt
 pandas
 pandas-ta
-streamlit
+streamlit>=1.52.0
 requests
 plotly
+altair<6
+numpy<2.1
